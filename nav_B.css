@@ -89,20 +89,20 @@ input {
     font-weight: bold;
 }
 
-
-
 @media screen and (width<770px) {
-    body {
-        background-color: lightgreen;
-    }
-
     .search_bar {
-        display: none;
+            display: none;
+        }
     }
-}
-
-@media screen and (width<350px) {
-    div>span {
+    
+    @media screen and (width<350px) {
+        div>span {
+            display: none;
+        }
+    }
+    
+    @media screen and (width<900px) {
+    .text_block{
         display: none;
     }
 }
