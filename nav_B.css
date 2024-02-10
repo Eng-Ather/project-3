@@ -1,0 +1,108 @@
+
+body{
+    height: 95vh;
+    /* border: 1px solid brown; */
+}
+
+.first_nav_bar{
+    height: 7%;
+    margin-top: 20px;
+    width: 100%;
+    /* border: 2px solid brown; */
+    }
+
+
+.search_bar {
+    height: 40px;
+    border: 1px solid rgb(169, 175, 169) !important;
+    border-radius: 20px;
+}
+
+/* for input field of search bar */
+input {
+    width: 85%;
+    outline: none;
+    height: 35px;
+    border: none;
+    outline: none;
+
+}
+
+.mic {
+    width: 30px;
+    height: 32px;
+    border-radius: 18px;
+    background-color: rgba(128, 128, 128, 0.2);
+
+}
+
+.main_body{
+    width: 100%;
+    height: 92%;
+    /* border: 1px solid black; */
+    
+}
+
+.text_block{
+    height: 100%;
+    overflow-y: scroll;
+    
+}
+
+.big_block{
+    height: 100%;
+}
+
+.vedio_block{
+   
+    height: 90%;
+    display: flex;
+    overflow-y: scroll;
+}
+
+
+.text_block>p{
+    /* width: 200px; */
+    font-weight: 500;
+    display: flex;
+   
+  
+}
+
+.text_block>p:hover{
+
+    background-color: rgba(201, 204, 206, 0.5);
+    border-radius: 10px;
+}
+.second_nav_bar{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.second_nav_bar>span{
+   
+    background-color:rgba(201, 204, 206, 0.5);
+    border-radius: 6px;
+    margin: 2px 0px 2px 20px;
+    padding: 2px ;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+@media screen and (width<770px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    .search_bar {
+        display: none;
+    }
+}
+
+@media screen and (width<350px) {
+    div>span {
+        display: none;
+    }
+}
